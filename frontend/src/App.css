@@ -1,0 +1,63 @@
+.app {
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+    color: white;
+    backdrop-filter: blur(4px);
+  }
+  
+  .toolbar {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .icon-button {
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    color: white;
+    transition: background 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  
+  .note-input {
+    flex-grow: 1;
+    background: rgba(0, 0, 0, 0.3);
+    border: none;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: white;
+    border-radius: 10px;
+    resize: none;
+    outline: none;
+    min-height: 200px;
+  }
+  
+  .old-notes {
+    margin-top: 20px;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    border-radius: 12px;
+    max-height: 40vh;
+    overflow-y: auto;
+  }
+  
+  .note-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 8px;
+    color: white;
+  }
+  
